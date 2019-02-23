@@ -1,0 +1,140 @@
+/*****************TAG SELECTORS *****************/
+body{
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+   border: none;
+   height: 0px;
+   width: 5%;
+   border-style: dotted none none;
+   border-color: grey;
+   border-width: 7px;
+ }
+
+ img{
+   width: 40%;
+ }
+/*****************CLASS SELECTORS*****************/
+/* index.html */
+.table-style{
+  position: relative;
+  margin: auto;
+}
+
+.intro-format{
+  padding:2% 6%;
+}
+
+/* acupuncture.html */
+.acupuncture-image{
+  width: 80%;
+  margin-top: 10px;
+}
+
+/* moxibustion-cupping.html */
+.moxibustion-image{
+  width: 80%;
+  margin-top: 10px;
+}
+
+.cupping-image{
+  width: 80%;
+  margin-top: 10px;
+}
+
+/*****************ID SELECTORS*****************/
+/* index.html */
+#clinicName-phone{
+  background-color: #df0e62;
+  color: #fffafa;
+  padding: 1rem;
+}
+
+#page-menu {
+  background-color: #fac70b;
+  color: #fffafa;
+  padding: 1.5rem;
+}
+
+#slide-show {
+  background-color: #127681;
+  color: #fffafa;
+  padding: 7rem;
+}
+
+#introduction{
+  background-color: #21174a;
+  color: #fffafa;
+  padding: 7rem;
+}
+
+#services{
+  background-color: #ae7c7c;
+  color: #fffafa;
+  padding: 7rem;
+}
+
+#staff-introduction{
+  background-color: #3e3838;
+  color: #fffafa;
+  padding: 7rem;
+}
+
+#QA{
+  background-color: #6cbbb3;
+  color: #fffafa;
+  padding: 7rem;
+}
+
+#business-hours{
+  background-color: #35477d;
+  color: #fffafa;
+  padding: 7rem;
+}
+
+#map{
+  background-color: #6c5b7b;
+  color: #fffafa;
+  padding: 2rem;
+}
+
+#contact{
+  background-color: #c06c84;
+  color: #fffafa;
+  padding: 2rem;
+}
+
+#contact{
+  background-color: #c06c84;
+  color: #fffafa;
+  padding: 4rem;
+}
+
+#sns{
+  background-color: #f67280;
+  color: #fffafa;
+  padding: 5rem;
+}
+
+#footer{
+  background-color: #00a8b5;
+  color: #fffafa;
+  padding: 1%;
+}
+
+/* acupuncture.html */
+#acupuncture-description {
+  padding: 7% 15%;
+}
+
+/* moxibustion-cupping.html */
+#moxibustion-cupping-description{
+  padding: 7% 15%;
+}
+
+/* oilMassage.html */
+#oilMassage-image{
+  padding: 7% 15%;
+}
