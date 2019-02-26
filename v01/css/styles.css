@@ -24,7 +24,23 @@ hr {
 }
 
 .intro-format{
-  padding:2% 6%;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 2.2;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.carousel-item {
+  padding: 0 15%;
+}
+
+.carousel {
+  width: 70%;
+  position: relative;
+  margin: auto;
 }
 
 /* acupuncture.html */
@@ -46,34 +62,29 @@ hr {
 
 /*****************ID SELECTORS*****************/
 /* index.html */
-#clinicName-phone{
-  background-color: #df0e62;
-  color: #fffafa;
-  padding: 1rem;
-}
-
 #page-menu {
-  background-color: #fac70b;
-  color: #fffafa;
-  padding: 1.5rem;
+  background-color: #1d5464;
+  color: #fac70b;
+  padding: 0.1rem;
 }
 
 #slide-show {
   background-color: #127681;
   color: #fffafa;
-  padding: 7rem;
+  text-align: center;
 }
 
 #introduction{
   background-color: #21174a;
   color: #fffafa;
-  padding: 7rem;
+  padding: 3rem 2rem;
 }
 
 #services{
   background-color: #ae7c7c;
   color: #fffafa;
   padding: 7rem;
+  text-align: center;
 }
 
 #staff-introduction{
