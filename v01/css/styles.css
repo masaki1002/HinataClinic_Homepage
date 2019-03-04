@@ -1,6 +1,5 @@
 /*****************TAG SELECTORS *****************/
 body{
-  text-align: center;
   margin: 0;
 }
 
@@ -16,13 +15,94 @@ hr {
  img{
    width: 40%;
  }
-/*****************CLASS SELECTORS*****************/
+
+/*****************ID SELECTORS*****************/
 /* index.html */
-.table-style{
-  position: relative;
-  margin: auto;
+#page-menu {
+  background-color: #1d5464;
+  color: #fac70b;
+  padding: 0.1rem;
 }
 
+#slide-show {
+  background-color: #127681;
+  color: #fffafa;
+}
+
+#introduction{
+  background-color: #21174a;
+  color: #fffafa;
+  padding: 3rem 2rem;
+}
+
+#services{
+  background-color: #ae7c7c;
+  color: black;
+  padding: 3rem 1rem 6rem;
+  text-align: center;
+}
+
+#staff-introduction{
+  text-align: center;
+  background-color: #3e3838;
+  color: #fffafa;
+  padding: 3rem 1rem 6rem;
+}
+
+#QA{
+  text-align: center;
+  background-color: #6cbbb3;
+  color: #fffafa;
+  padding: 3rem 1rem 6rem;
+}
+
+
+
+#business-hours{
+  text-align: center;
+  background-color: #35477d;
+  color: #fffafa;
+  padding: 3rem 1rem 6rem;
+}
+
+#contact{
+  text-align: center;
+  background-color: #c06c84;
+  color: #fffafa;
+  padding: 2rem;
+}
+
+#contact{
+  text-align: center;
+  background-color: #c06c84;
+  color: #fffafa;
+  padding: 3rem 1rem 3rem;
+}
+
+#footer{
+  text-align: center;
+  background-color: #f67280;
+  color: #fffafa;
+  padding: 0.8rem;
+}
+
+/* acupuncture.html */
+#acupuncture-description {
+  padding: 7% 15%;
+}
+
+/* moxibustion-cupping.html */
+#moxibustion-cupping-description{
+  padding: 7% 15%;
+}
+
+/* oilMassage.html */
+#oilMassage-image{
+  padding: 7% 15%;
+}
+
+/*****************CLASS SELECTORS*****************/
+/* index.html */
 .intro-format{
   margin: 0;
   font-size: 1rem;
@@ -43,6 +123,71 @@ hr {
   margin: auto;
 }
 
+.service-text{
+  padding-bottom: 3rem;
+}
+
+.service-name {
+  font-size: 0.7rem;
+  line-height: 10px;
+}
+
+.serviceBox{
+  margin: 0 20%;
+}
+
+.card-space{
+  position: relative;
+  right: 5%;
+  width: 120%;
+}
+
+.staff-intro-text{
+  margin-bottom: 10px;
+}
+
+.staff-intro-table{
+  margin-top: 3%;
+}
+
+.staff-picture{
+  border-radius: 80%;
+}
+
+.staff-name{
+  font-size: 1.3rem;
+  padding: 2%;
+}
+
+.staff-description{
+  padding: 0 8%;
+  font-size: 100%;
+  line-height: 120%;
+}
+
+.contact-format{
+  padding: 0 28.5%;
+  line-height: 240%;
+}
+
+.googlemap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top:80px;
+height: 0;
+overflow: hidden;
+}
+
+.googlemap iframe,
+.googlemap object,
+.googlemap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 80%;
+height: 100%;
+}
+
 /* acupuncture.html */
 .acupuncture-image{
   width: 80%;
@@ -58,94 +203,4 @@ hr {
 .cupping-image{
   width: 80%;
   margin-top: 10px;
-}
-
-/*****************ID SELECTORS*****************/
-/* index.html */
-#page-menu {
-  background-color: #1d5464;
-  color: #fac70b;
-  padding: 0.1rem;
-}
-
-#slide-show {
-  background-color: #127681;
-  color: #fffafa;
-  text-align: center;
-}
-
-#introduction{
-  background-color: #21174a;
-  color: #fffafa;
-  padding: 3rem 2rem;
-}
-
-#services{
-  background-color: #ae7c7c;
-  color: #fffafa;
-  padding: 7rem;
-  text-align: center;
-}
-
-#staff-introduction{
-  background-color: #3e3838;
-  color: #fffafa;
-  padding: 7rem;
-}
-
-#QA{
-  background-color: #6cbbb3;
-  color: #fffafa;
-  padding: 7rem;
-}
-
-#business-hours{
-  background-color: #35477d;
-  color: #fffafa;
-  padding: 7rem;
-}
-
-#map{
-  background-color: #6c5b7b;
-  color: #fffafa;
-  padding: 2rem;
-}
-
-#contact{
-  background-color: #c06c84;
-  color: #fffafa;
-  padding: 2rem;
-}
-
-#contact{
-  background-color: #c06c84;
-  color: #fffafa;
-  padding: 4rem;
-}
-
-#sns{
-  background-color: #f67280;
-  color: #fffafa;
-  padding: 5rem;
-}
-
-#footer{
-  background-color: #00a8b5;
-  color: #fffafa;
-  padding: 1%;
-}
-
-/* acupuncture.html */
-#acupuncture-description {
-  padding: 7% 15%;
-}
-
-/* moxibustion-cupping.html */
-#moxibustion-cupping-description{
-  padding: 7% 15%;
-}
-
-/* oilMassage.html */
-#oilMassage-image{
-  padding: 7% 15%;
 }
